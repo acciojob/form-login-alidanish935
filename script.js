@@ -1,8 +1,9 @@
 function getFormvalue() {
     //Write your code here
 	const name = document.querySelectorAll("input");
-	const fn = name[0].value;
-	const ln = name[1].value;
+	let fn = name[0].value;
+	let ln = name[1].value;
+	console.log(fn,ln)
 	alert(fn,ln)
 
 }
