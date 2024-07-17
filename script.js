@@ -3,7 +3,8 @@ function getFormvalue() {
 	const name = document.querySelectorAll("input");
 	let fn = name[0].value;
 	let ln = name[1].value;
-	console.log(fn,ln)
-	alert(fn,ln)
+	let  fullnm = fn+" "+ln;
+	console.log(fullnm)
+	alert(fullnm)
 
 }
